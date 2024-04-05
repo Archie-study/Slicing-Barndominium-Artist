@@ -1,0 +1,38 @@
+.jumbotron{
+    height: 100vh;
+    background-image: url(https://s3-alpha-sig.figma.com/img/7f34/ec7e/0798f2ed6f6e25d536eb121a12b07157?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Hx5WbTmRVKK4RNrX28gAv0dsp9QS3Q0nbsHLmuTvUQACqnrf4qbg8puRqyx0Hc2TAtrjKyB3N5hvAkWJEdd8PknVAkp6hXlD~sGSfSaV0ZRWUoiraIAUTbfuRW3~yQcFBh0kbmiZHzANAP~2KftiMhFKqak8eaKakHX1hrB4BNqK5nlGkohRxJSgHlMahNifmgW80X6ZEffQuiKlMBEuPxqDybLDhxEUJr2yuyX1JCGjBvPv5VyqOPHYRrQB1lAP8bBXtS4~TSGCyweoLQsSK~t2~xZxUIZS8kfUefdrIT7D8YkSJ5yRqihuVdKUDkop8cZyXtBUDhf6ia03GxL6kg__);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-shadow{
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+}
+
+.jumbotron-content{
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 17%;
+    color: white;
+}
+
+.jumbotron-content h4 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-size: 700;
+}
+
+.jumbotron-content h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
