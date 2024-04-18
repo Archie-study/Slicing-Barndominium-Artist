@@ -1,0 +1,57 @@
+.customized-home-design{
+    position: relative;
+}
+
+.customized-home-background{
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.customized-content{
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 200px;
+}
+
+.customized-content h3{
+    font-size: 54px;
+}
+
+.customized-content button{
+    width: 550px;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    background-color: #CFA22E;
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.cust-img-1 {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.cust-img-2 {
+    position: absolute;
+    top: 0;
+    height: 583px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.customized-shadow{
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 584px;
+}

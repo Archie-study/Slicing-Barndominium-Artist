@@ -1,6 +1,7 @@
 .our-story-container{
-    /* border: 2px solid red; */
+    /* border: 2px solid purple; */
     text-align: center;
+    height: 900px;
 }
 
 .our-story-container h2{
