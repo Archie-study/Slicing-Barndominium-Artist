@@ -4,16 +4,9 @@
     height: 900px;
 }
 
-.our-story-container h2{
-    font-size: 2.5rem;
-}
 
-.short-block{
-    width: 55px;
-    height: 8px;
-    background-color: #CFA22E;
-    margin: 0.3rem auto;
-}
+
+
 
 .our-story-container p {
     /* border: 2px solid blue; */

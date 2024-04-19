@@ -1,0 +1,98 @@
+.house-plans-card-container{
+    margin-top: 25px;
+}
+
+.house-plans-image{
+    /* border: 2px solid yellow; */
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.house-plans-image img{
+    width: 100%;
+    /* position: relative; */
+    clip-path: inset(0 0 43px 0);
+}
+
+.house-plans-image-attribute{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    margin-bottom: 150px;
+    margin-left: 75px;
+    align-items: center;
+    width: 640px;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.love-buttons {
+    width: 50px;
+    height: 50px;
+    background-color: #EAEAEA;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+.love-buttons p{
+    align-self: center;
+}
+
+.house-plans-info{
+    /* border: 2px solid red;
+      */
+    background-color: #E7EAEA;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    /* position: relative; */
+    margin-top: -50px;
+}
+
+.plans-info-heading{
+    width: 700px;
+    height: 6   0px;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.price{
+    font-weight: 300;
+}
+
+.info-card-container{
+    width: 750px;
+    height: 280px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-card{
+    width: 145px;
+    height: 125px;
+    background-color:  #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
